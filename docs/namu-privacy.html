@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>나무뷰어 - 리팩 개인정보처리방침</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 1.8rem; line-height: 1.3; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #aaa; padding: 10px; text-align: left; vertical-align: top; }
+    a { overflow-wrap: anywhere; }
+    .meta { color: #666; }
+    @media (prefers-color-scheme: dark) { .meta { color: #aaa; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>나무뷰어 - 리팩 개인정보처리방침</h1>
+    <p class="meta">시행일 및 최종 업데이트: 2026년 10월 4일</p>
+
+    <p>MonthlyPub(이하 “개발자”)은 나무뷰어 - 리팩(패키지명: com.monpub.namuwiki.repack, 이하 “앱”) 이용자의 개인정보를 중요하게 생각합니다. 이 방침은 앱이 처리하는 정보, 처리 목적, 제3자 서비스, 보관 및 삭제 방법을 설명합니다.</p>
+
+    <h2>1. 처리하는 정보</h2>
+    <table>
+      <thead><tr><th>구분</th><th>정보</th><th>목적</th></tr></thead>
+      <tbody>
+        <tr><td>앱 사용 및 기기 정보</td><td>앱 실행·화면·기능 사용 기록, 광고 상호작용, 앱 버전, 기기 모델, 운영체제 버전, 언어, 대략적인 지역(IP 주소 기반)</td><td>서비스 운영, 사용성 분석, 광고 제공 및 부정 사용 방지</td></tr>
+        <tr><td>식별자</td><td>Firebase 설치 ID, Crashlytics 설치 UUID, 광고 ID, 앱 세트 ID 등 기기 또는 앱 인스턴스 식별자</td><td>분석, 오류 진단, 광고 및 부정 사용 방지</td></tr>
+        <tr><td>진단 정보</td><td>충돌 로그, 스택 트레이스, 성능·실행 상태와 오류 발생 시 현재 문서 제목, 각주 일부, 이미지 주소 또는 설명 등 오류 재현에 필요한 문맥</td><td>오류 분석과 앱 안정성 개선</td></tr>
+        <tr><td>웹 요청 정보</td><td>접속한 나무위키 주소와 검색 요청, IP 주소, User-Agent, 쿠키 및 WebView에서 웹사이트가 처리하는 정보</td><td>나무위키 콘텐츠 표시, 검색 및 로그인 상태 유지</td></tr>
+        <tr><td>문의 정보</td><td>이메일 주소와 이용자가 문의에 포함한 내용</td><td>문의 답변 및 문제 해결</td></tr>
+      </tbody>
+    </table>
+    <p>앱은 회원가입 기능을 제공하지 않으며, 개발자가 이름·전화번호·주소·결제정보를 직접 요구하지 않습니다.</p>
+
+    <h2>2. 기기에만 저장되는 정보</h2>
+    <p>방문 기록, 즐겨찾기, 나중에 보기, 검색 기록, 앱 설정, WebView 쿠키·캐시 및 이용자가 내려받은 파일은 원칙적으로 이용자의 기기에 저장됩니다. 다만 오류가 발생하면 위에 설명한 제한적인 진단 문맥이 Crashlytics 보고서에 포함될 수 있습니다.</p>
+
+    <h2>3. 제3자 처리 및 공유</h2>
+    <p>개발자는 개인정보를 판매하지 않습니다. 앱 기능 제공을 위해 다음 서비스가 각자의 개인정보처리방침에 따라 정보를 처리할 수 있습니다.</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>: Firebase Analytics, Firebase Crashlytics, Firebase Remote Config, Google Mobile Ads 및 Google Play 서비스</li>
+      <li><a href="https://firebase.google.com/support/privacy">Firebase 개인정보 및 보안 정보</a></li>
+      <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK 데이터 공개</a></li>
+      <li><a href="https://namu.wiki/PrivacyPolicy">나무위키 개인정보처리방침</a>: 문서 열람, 검색, 쿠키 및 웹 요청 처리</li>
+    </ul>
+    <p>이용자가 외부 링크를 열거나 직접 지정한 웹폰트 주소를 사용하는 경우 해당 웹사이트 또는 파일 제공자에게 IP 주소, User-Agent 등의 일반적인 요청 정보가 전달될 수 있습니다.</p>
+
+    <h2>4. 광고</h2>
+    <p>앱은 Google Mobile Ads를 사용합니다. 광고 SDK는 광고 제공, 측정, 분석 및 부정 사용 방지를 위해 IP 주소, 앱 상호작용, 진단 정보와 광고 ID·앱 세트 ID 등의 식별자를 자동으로 수집·공유할 수 있습니다. 이용자는 Android 설정에서 광고 ID를 재설정하거나 삭제할 수 있으며, 지역과 동의 상태에 따라 개인 맞춤이 제한된 광고가 제공될 수 있습니다.</p>
+
+    <h2>5. 보관 및 삭제</h2>
+    <ul>
+      <li>기기에 저장된 방문·검색 기록은 앱의 삭제 기능으로 지울 수 있습니다. 앱 데이터 삭제 또는 앱 제거 시 다른 로컬 정보도 삭제됩니다.</li>
+      <li>Firebase Analytics의 사용자 및 이벤트 수준 데이터는 프로젝트 설정에 따라 최대 14개월 보관되며, 집계되거나 비식별화된 통계는 더 오래 보관될 수 있습니다.</li>
+      <li>Firebase Crashlytics의 충돌 정보와 관련 식별자는 Google 정책에 따라 90일 동안 보관된 후 삭제 절차가 시작됩니다.</li>
+      <li>광고 관련 정보는 Google의 개인정보처리방침과 보관 정책에 따라 처리됩니다.</li>
+      <li>문의 이메일은 답변과 문제 해결에 필요한 기간 동안 보관한 뒤 삭제합니다. 법적 의무 또는 분쟁 대응이 필요한 경우에는 해당 목적에 필요한 기간 동안 보관할 수 있습니다.</li>
+    </ul>
+    <p>서버 측 정보의 열람 또는 삭제 요청은 아래 이메일로 접수할 수 있습니다. 앱이 계정 없이 동작하므로 익명 식별자와 특정 이용자를 연결할 수 없는 경우 개별 기록을 식별하지 못할 수 있습니다.</p>
+
+    <h2>6. 보안 및 국외 처리</h2>
+    <p>앱과 주요 서비스 간 통신에는 HTTPS 등 전송 암호화가 사용됩니다. Google 등 제3자 서비스가 제공되는 과정에서 정보가 이용자의 국가 밖에서 처리될 수 있으며, 이 경우 해당 사업자의 보안 조치와 개인정보처리방침이 적용됩니다.</p>
+
+    <h2>7. 아동의 개인정보</h2>
+    <p>앱은 아동을 대상으로 제작되지 않았으며 개발자는 아동의 개인정보를 고의로 수집하지 않습니다. 아동의 개인정보가 처리되었다고 판단되는 경우 아래 연락처로 알려주시면 확인 후 필요한 조치를 하겠습니다.</p>
+
+    <h2>8. 방침 변경</h2>
+    <p>앱 기능이나 관련 법령이 변경되면 이 방침을 수정할 수 있습니다. 중요한 변경은 이 페이지의 최종 업데이트 날짜를 변경하여 알립니다.</p>
+
+    <h2>9. 문의처</h2>
+    <p>개발자: MonthlyPub<br>개인정보 문의: <a href="mailto:sincePublish@gmail.com">sincePublish@gmail.com</a></p>
+  </main>
+</body>
+</html>
